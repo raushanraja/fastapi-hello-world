@@ -31,5 +31,5 @@ jobs:
       uses: docker/build-push-action@v4.1.1
       with:
         push: true
-        tags: raushanraja/jammybase:latest, raushanraja/jammybase:${{ steps.read_version.outputs.version }}
+        tags: raushanraja/fastapi-hello-world:latest, raushanraja/fastapi-hello-world:${{ steps.read_version.outputs.version }}
 
